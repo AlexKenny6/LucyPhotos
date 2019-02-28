@@ -8,10 +8,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="">
             <meta name="author" content="">
-
             <title>Lucy Photos</title>
             <link href="css/style.css" rel="stylesheet">
-            <!--<link href="css/bootstrap.css" rel="stylesheet">-->
             <link href="css/pictures.css" rel="stylesheet">
             <link href="css/items.css" rel="stylesheet">
             <link href="css/category.css" rel="stylesheet">
