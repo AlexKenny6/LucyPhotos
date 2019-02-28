@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+    // 1rem = 62.5% (fyi)
+    // entire page's font size is dependent on 
+    // this number below
+    font-size: 62.5%;
+
+    // 1rem = 10px;
+    // 10px/16px = 62.5%
+
+    // PREVIOUS LOG OF FONT SIZES
+    // 12/17-20/18, font size was 75%
+    // 12/20/2018 - ##/##/####, font size was 62.5
+
+    @include respond(tab-land) {
+        font-size: 56.25%; //1 rem = 9px, 9/16 = 56.25%
+        // width < 900px
+    }
+
+    @include respond(tab-port) {
+        font-size: 50%; // 1 rem = 8px, 8/16 = 50%
+        // width < 600px
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%; // 1 rem = 12px, 12/16 = 75%
+    }
+
+}
+
+body {
+    box-sizing: border-box;
+    padding: 3rem;
+
+    @include respond(tab-port) {
+        padding: 0;
+    }
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
