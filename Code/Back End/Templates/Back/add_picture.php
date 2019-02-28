@@ -47,6 +47,6 @@
             <label for="picture-title">Picture Image</label>
             <input type="file" name="file"> 
         </div>
-    </aside><!--SIDEBAR-->
+    </aside>
 </form>
 
