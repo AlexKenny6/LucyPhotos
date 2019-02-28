@@ -1,5 +1,4 @@
- 
-<div class="col-md-3">
+ <div class="col-md-3">
     <p class="lead"></p>
     <div class="list-group">
 
