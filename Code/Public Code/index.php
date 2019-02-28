@@ -67,10 +67,7 @@
             </div>
         </section>
         <br><br>
-        <br>
-        <br>
-        <br>
-       
+        <br><br><br>
     </main>
     
 <?php include(TEMPLATE_FRONT . DS . "footer.php");  ?>
